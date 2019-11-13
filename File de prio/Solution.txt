@@ -1,0 +1,14 @@
+08.11
+Exo 1 :
+File de priorité : (id, prio)
+Extraire la priorité maximale dans l'ordre d'une file (si m^ prio : plus ancien)
+
+On implémente d'abord les files classiques en programmation (facile avec 
+tableaux mais on l'a fait avec listes doublement chainées (voir tel))
+
+Quelle structure utiliser pour l'implémentation ?
+-> Tableau de file : 
+On suppose que les priorités sont un entier entre 0 et k, on insère la file
+de priorité i à l'indice i du tableau
+Complexité : Insertion o(1)
+	     Supression o(k)
